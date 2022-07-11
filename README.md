@@ -5,3 +5,4 @@ print("The is the Num_Prime from lower to Upper:");
 for num in range (lower,upper+1):
   if all(num%i!=0 for i in range(2,num)):
     print(num)
+
